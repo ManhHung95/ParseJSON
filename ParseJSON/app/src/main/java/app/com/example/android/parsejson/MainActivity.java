@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
         GoogleApiClient.OnConnectionFailedListener
 {
     private GooglePAiCien ddanh;
+    //dit me Hung lang
     private GoogleApiClient mGoogleApiClien22t;
     private Location mLocati33on;
 
