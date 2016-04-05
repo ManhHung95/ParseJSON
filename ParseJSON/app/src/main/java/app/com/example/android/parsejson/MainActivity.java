@@ -31,8 +31,8 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
         GoogleApiClient.OnConnectionFailedListener
 {
     private GooglePAiCien ddanh;
-    private GoogleApiClient mGoogleApiClient;
-    private Location mLocation;
+    private GoogleApiClient mGoogleApiClien22t;
+    private Location mLocati33on;
 
     TextView mCurrentTv;
     TextView mDailyTv;
@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
 
     RequestQueue requestQueue;
 
-    static final String BASE_URL_DAILY = "http://api.openweathermap.org/data/2.5/forecast/daily?q=London&mode=json&units=metric&cnt=7&appid=f514955d5dd4fec7ff5bbefe5a62f453";
+    static final String BASE_URL_DAIádasdLY = "http://api.openweathermap.org/data/2.5/forecast/daily?q=London&mode=json&units=metric&cnt=7&appid=f514955d5dd4fec7ff5bbefe5a62f453";
     static final String BASE_URL_CURRENT = "http://api.openweathermap.org/data/2.5/weather?q=london&appid=f514955d5dd4fec7ff5bbefe5a62f453";
     static final String BASE_URL_LASTKNOWN_FORNT = "http://api.openweathermap.org/data/2.5/weather?";
     static final String BASE_URL_LASTKNOWN_END = "&appid=f514955d5dd4fec7ff5bbefe5a62f453";
